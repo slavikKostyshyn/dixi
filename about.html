@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Title</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Icon -->
+    <!-- <link rel="shortcut icon" href="img/pre1.png" type="image/x-icon"> -->
+
+    <!-- Style -->
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->    
+</head>
+<body>
+    <header class="page-header">
+      <div class="container">
+        <div class="left-block">
+          <a href="/"><img src="img/page-logo.png" alt="logo"></a>
+        </div>
+        <div class="middle-block">
+          <ul class="menu-list">
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Новини</a></li>
+            <li><a href="#">Аналітичні продукти</a></li>
+            <li><a href="#">Послуги</a></li>
+            <li><a href="#">Конкурси</a></li>
+          </ul>
+          <div class="search-lang-block">
+            <form class="search" action="/" method="GET">
+              <input type="search" id="search" name="s" placeholder="Поиск по сайту..." />
+              <button type="submit" class="search-icon">
+                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)"><path d="M21.7312 19.0224L15.475 13.3482C16.6868 11.9905 17.4165 10.2654 17.4165 8.38647C17.4165 4.03167 13.5097 0.488281 8.70822 0.488281C3.90677 0.488281 0 4.03163 0 8.38643C0 12.7412 3.90681 16.2846 8.70826 16.2846C10.7799 16.2846 12.682 15.6229 14.1789 14.5237L20.4351 20.198C20.6138 20.3601 20.8484 20.4416 21.0831 20.4416C21.3178 20.4416 21.5525 20.3601 21.7312 20.198C22.0896 19.8729 22.0896 19.3475 21.7312 19.0224ZM8.70826 14.6218C4.91695 14.6218 1.83333 11.8251 1.83333 8.38643C1.83333 4.9478 4.91695 2.15103 8.70826 2.15103C12.4996 2.15103 15.5832 4.9478 15.5832 8.38643C15.5832 11.8251 12.4995 14.6218 8.70826 14.6218Z" fill="white"/></g>
+                  <defs><clipPath id="clip0"><rect y="0.488281" width="22" height="19.9535" fill="white"/></clipPath></defs>
+                </svg>
+              </button>
+            </form>
+            <div class="lang">
+              <span>En</span>
+              <ul class="lang-list">
+                <li><a href="">En</a></li>
+                <li><a href="">Ua</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="right-block">
+          <ul class="social-nav">
+            <li class="email">
+              <a href="mailto:author@dixigroup.org">
+                <span>author@dixigroup.org</span>
+                <svg width="27" height="21" viewBox="0 0 27 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2.37214 0.5H24.6262C24.642 0.5 24.6578 0.500217 24.6735 0.500649L15.8089 9.3648C15.8069 9.36674 15.8047 9.36884 15.8025 9.37111L13.4534 11.6287L2.32538 0.500634C2.34092 0.500212 2.35651 0.5 2.37214 0.5Z" fill="white" stroke="white"/>
+                  <path d="M26.4999 18.2402L18.5431 10.2833L26.4999 2.32686C26.5003 2.3422 26.5006 2.35758 26.5006 2.37299V18.1934C26.5006 18.2091 26.5003 18.2246 26.4999 18.2402Z" fill="white" stroke="white"/>
+                  <path d="M0.5 2.37312C0.5 2.35749 0.500212 2.3419 0.500634 2.32635L8.45761 10.2833L0.500622 18.2399C0.500208 18.2245 0.5 18.209 0.5 18.1935V2.37312Z" fill="white" stroke="white"/>
+                  <path d="M13.4469 14.7387C13.7748 14.7387 14.1043 14.6137 14.3557 14.3644L16.7095 12.1024L24.6734 20.0662C24.6578 20.0666 24.6422 20.0668 24.6266 20.0668H2.37251C2.35671 20.0668 2.34094 20.0666 2.32522 20.0662L10.2827 12.1092L12.534 14.3604C12.534 14.3604 12.534 14.3605 12.5341 14.3605C12.786 14.6125 13.1173 14.7387 13.4469 14.7387Z" fill="white" stroke="white"/>
+                </svg>
+              </a>
+            </li>
+            <li class="phone">
+              <a href="tel:+38 044 253 66 94">
+                <span>+38 044 253 66 94</span>
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M23.9137 17.066C22.3219 17.066 20.7589 16.817 19.2778 16.3276C18.552 16.08 17.6598 16.3071 17.2169 16.762L14.2935 18.9689C10.9031 17.1591 8.81472 15.0714 7.02966 11.7065L9.17161 8.85927C9.7281 8.30352 9.92771 7.4917 9.68856 6.72999C9.197 5.24109 8.94729 3.67885 8.94729 2.08636C8.94736 0.93593 8.01143 0 6.86107 0H2.08629C0.93593 0 0 0.93593 0 2.08629C0 15.2725 10.7275 25.9999 23.9137 25.9999C25.0641 25.9999 26 25.064 26 23.9136V19.1522C25.9999 18.0019 25.064 17.066 23.9137 17.066Z" fill="white"/>
+                </svg>                 
+              </a>
+            </li>
+            <li class="social">
+              <a href="">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M29.6921 0H2.30786C1.0332 0 0 1.0332 0 2.30786V29.6921C0 30.9668 1.0332 32 2.30786 32H17.0938V19.625H12.9375V14.7813H17.0938V11.2166C17.0938 7.08276 19.6174 4.83276 23.3049 4.83276C25.071 4.83276 26.5889 4.96436 27.0313 5.02319V9.34375H24.4885C22.4822 9.34375 22.0938 10.2971 22.0938 11.6963V14.7813H26.8906L26.2656 19.625H22.0938V32H29.6921C30.9668 32 32 30.9668 32 29.6921V2.30786C32 1.0332 30.9668 0 29.6921 0V0Z" fill="white"/>
+                </svg>
+              </a>
+              <a href="">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.4675 12.812C12.8129 12.5151 10.4742 11.1749 8.87098 9.20781L8.41433 8.64748L8.05111 9.27244C7.69289 9.88878 7.48608 10.6055 7.48608 11.3696C7.48608 12.1215 7.68491 12.8276 8.03291 13.4374L7.4833 13.1318L7.45728 13.9514C7.45654 13.9749 7.45654 13.9967 7.45654 14.0119V14.0142C7.45654 15.2277 7.97518 16.3208 8.80305 17.0832L8.51075 17.0271L8.76801 17.8296C9.16607 19.0714 10.1298 20.0602 11.3566 20.4923C10.39 21.0078 9.28641 21.2998 8.11377 21.2998C7.83658 21.2998 7.56369 21.284 7.29643 21.2525L6.96797 22.17C8.67067 23.2614 10.6937 23.8987 12.8669 23.8987C19.9556 23.8984 23.8159 18.0175 23.8159 12.9497C23.8159 12.8727 23.8152 12.7959 23.8136 12.7191C24.4887 12.1952 25.0784 11.5622 25.5531 10.8508L26.5108 9.41548L24.9341 10.1164C24.8483 10.1545 24.7616 10.1909 24.674 10.2255C24.8604 9.9311 25.0109 9.6116 25.1195 9.27293L25.5213 8.01872L24.3884 8.69024C23.7995 9.03925 23.1549 9.30324 22.4706 9.46555C21.726 8.77483 20.7266 8.35132 19.6306 8.35132C17.3265 8.35132 15.4578 10.2199 15.4578 12.5234C15.4578 12.6203 15.461 12.7165 15.4675 12.812ZM2.30786 0.5H29.6921C30.6907 0.5 31.5 1.30935 31.5 2.30786V29.6921C31.5 30.6907 30.6907 31.5 29.6921 31.5H2.30786C1.30935 31.5 0.5 30.6907 0.5 29.6921V2.30786C0.5 1.30935 1.30935 0.5 2.30786 0.5Z" fill="white" stroke="white"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <header class="mobile-header">
+      <div class="row-top">
+        <a href="#" class="menu-btn">
+            <span></span>
+        </a>
+        <a href="/"><img src="img/page-logo.png" alt="logo"></a>
+        <form action="" class="mob-search">
+          <input type="search" id="search" name="s" placeholder="Поиск по сайту..." />
+          <span class="search-no">
+            <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)"><path d="M21.7312 19.0224L15.475 13.3482C16.6868 11.9905 17.4165 10.2654 17.4165 8.38647C17.4165 4.03167 13.5097 0.488281 8.70822 0.488281C3.90677 0.488281 0 4.03163 0 8.38643C0 12.7412 3.90681 16.2846 8.70826 16.2846C10.7799 16.2846 12.682 15.6229 14.1789 14.5237L20.4351 20.198C20.6138 20.3601 20.8484 20.4416 21.0831 20.4416C21.3178 20.4416 21.5525 20.3601 21.7312 20.198C22.0896 19.8729 22.0896 19.3475 21.7312 19.0224ZM8.70826 14.6218C4.91695 14.6218 1.83333 11.8251 1.83333 8.38643C1.83333 4.9478 4.91695 2.15103 8.70826 2.15103C12.4996 2.15103 15.5832 4.9478 15.5832 8.38643C15.5832 11.8251 12.4995 14.6218 8.70826 14.6218Z" fill="white"/></g>
+              <defs><clipPath id="clip0"><rect y="0.488281" width="22" height="19.9535" fill="white"/></clipPath></defs>
+            </svg>
+          </span>
+          <button type="submit" class="search-icon">
+            <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)"><path d="M21.7312 19.0224L15.475 13.3482C16.6868 11.9905 17.4165 10.2654 17.4165 8.38647C17.4165 4.03167 13.5097 0.488281 8.70822 0.488281C3.90677 0.488281 0 4.03163 0 8.38643C0 12.7412 3.90681 16.2846 8.70826 16.2846C10.7799 16.2846 12.682 15.6229 14.1789 14.5237L20.4351 20.198C20.6138 20.3601 20.8484 20.4416 21.0831 20.4416C21.3178 20.4416 21.5525 20.3601 21.7312 20.198C22.0896 19.8729 22.0896 19.3475 21.7312 19.0224ZM8.70826 14.6218C4.91695 14.6218 1.83333 11.8251 1.83333 8.38643C1.83333 4.9478 4.91695 2.15103 8.70826 2.15103C12.4996 2.15103 15.5832 4.9478 15.5832 8.38643C15.5832 11.8251 12.4995 14.6218 8.70826 14.6218Z" fill="white"/></g>
+              <defs><clipPath id="clip0"><rect y="0.488281" width="22" height="19.9535" fill="white"/></clipPath></defs>
+            </svg>
+          </button>
+        </form>
+      </div>
+      <div class="row-bot">
+        <ul class="nav-bar">
+          <li><a href="">Про нас</a></li>
+          <li><a href="">Новини</a></li>
+          <li><a href="">Аналітичні продукти</a></li>
+          <li><a href="">Послуги</a></li>
+          <li><a href="">Конкурси</a></li>
+          <li class="menu-item-has-clildren">
+            <a href="">Більше</a>
+            <ul class="sub-menu">
+              <li><a href="">Аналітичні продукти</a></li>
+              <li><a href="">Послуги</a></li>
+              <li><a href="">Конкурси</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-body-mobile">
+        <ul class="menu">
+          <li><a href="">Про нас</a></li>
+          <li><a href="">Новини</a></li>
+          <li><a href="">Аналітичні продукти</a></li>
+          <li><a href="">Послуги</a></li>
+          <li><a href="">Конкурси</a></li>
+        </ul>
+        <div class="lang">
+          <span>En</span>
+          <ul class="lang-list">
+            <li><a href="">En</a></li>
+            <li><a href="">Ua</a></li>
+          </ul>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="">
+              <svg width="27" height="21" viewBox="0 0 27 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.37214 0.5H24.6262C24.642 0.5 24.6578 0.500217 24.6735 0.500649L15.8089 9.3648C15.8069 9.36674 15.8047 9.36884 15.8025 9.37111L13.4534 11.6287L2.32538 0.500634C2.34092 0.500212 2.35651 0.5 2.37214 0.5Z" fill="white" stroke="white"/>
+                <path d="M26.4999 18.2402L18.5431 10.2833L26.4999 2.32686C26.5003 2.3422 26.5006 2.35758 26.5006 2.37299V18.1934C26.5006 18.2091 26.5003 18.2246 26.4999 18.2402Z" fill="white" stroke="white"/>
+                <path d="M0.5 2.37312C0.5 2.35749 0.500212 2.3419 0.500634 2.32635L8.45761 10.2833L0.500622 18.2399C0.500208 18.2245 0.5 18.209 0.5 18.1935V2.37312Z" fill="white" stroke="white"/>
+                <path d="M13.4469 14.7387C13.7748 14.7387 14.1043 14.6137 14.3557 14.3644L16.7095 12.1024L24.6734 20.0662C24.6578 20.0666 24.6422 20.0668 24.6266 20.0668H2.37251C2.35671 20.0668 2.34094 20.0666 2.32522 20.0662L10.2827 12.1092L12.534 14.3604C12.534 14.3604 12.534 14.3605 12.5341 14.3605C12.786 14.6125 13.1173 14.7387 13.4469 14.7387Z" fill="white" stroke="white"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d)"><path d="M36.9137 21.066C35.3219 21.066 33.7589 20.817 32.2778 20.3276C31.552 20.08 30.6598 20.3071 30.2169 20.762L27.2935 22.9689C23.9031 21.1591 21.8147 19.0714 20.0297 15.7065L22.1716 12.8593C22.7281 12.3035 22.9277 11.4917 22.6886 10.73C22.197 9.24109 21.9473 7.67885 21.9473 6.08636C21.9474 4.93593 21.0114 4 19.8611 4H15.0863C13.9359 4 13 4.93593 13 6.08629C13 19.2725 23.7275 29.9999 36.9137 29.9999C38.0641 29.9999 39 29.064 39 27.9136V23.1522C38.9999 22.0019 38.064 21.066 36.9137 21.066Z" fill="white"/></g>
+                <defs>
+                <filter id="filter0_d" x="0" y="0" width="42" height="41.9999" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                <feOffset dx="-5" dy="4"/>
+                <feGaussianBlur stdDeviation="4"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                </filter>
+                </defs>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M29.6921 0H2.30786C1.0332 0 0 1.0332 0 2.30786V29.6921C0 30.9668 1.0332 32 2.30786 32H17.0938V19.625H12.9375V14.7813H17.0938V11.2166C17.0938 7.08276 19.6174 4.83276 23.3049 4.83276C25.071 4.83276 26.5889 4.96436 27.0313 5.02319V9.34375H24.4885C22.4822 9.34375 22.0938 10.2971 22.0938 11.6963V14.7813H26.8906L26.2656 19.625H22.0938V32H29.6921C30.9668 32 32 30.9668 32 29.6921V2.30786C32 1.0332 30.9668 0 29.6921 0V0Z" fill="white"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.4675 12.812C12.8129 12.5151 10.4742 11.1749 8.87098 9.20781L8.41433 8.64748L8.05111 9.27244C7.69289 9.88878 7.48608 10.6055 7.48608 11.3696C7.48608 12.1215 7.68491 12.8276 8.03291 13.4374L7.4833 13.1318L7.45728 13.9514C7.45654 13.9749 7.45654 13.9967 7.45654 14.0119V14.0142C7.45654 15.2277 7.97518 16.3208 8.80305 17.0832L8.51075 17.0271L8.76801 17.8296C9.16607 19.0714 10.1298 20.0602 11.3566 20.4923C10.39 21.0078 9.28641 21.2998 8.11377 21.2998C7.83658 21.2998 7.56369 21.284 7.29643 21.2525L6.96797 22.17C8.67067 23.2614 10.6937 23.8987 12.8669 23.8987C19.9556 23.8984 23.8159 18.0175 23.8159 12.9497C23.8159 12.8727 23.8152 12.7959 23.8136 12.7191C24.4887 12.1952 25.0784 11.5622 25.5531 10.8508L26.5108 9.41548L24.9341 10.1164C24.8483 10.1545 24.7616 10.1909 24.674 10.2255C24.8604 9.9311 25.0109 9.6116 25.1195 9.27293L25.5213 8.01872L24.3884 8.69024C23.7995 9.03925 23.1549 9.30324 22.4706 9.46555C21.726 8.77483 20.7266 8.35132 19.6306 8.35132C17.3265 8.35132 15.4578 10.2199 15.4578 12.5234C15.4578 12.6203 15.461 12.7165 15.4675 12.812ZM2.30786 0.5H29.6921C30.6907 0.5 31.5 1.30935 31.5 2.30786V29.6921C31.5 30.6907 30.6907 31.5 29.6921 31.5H2.30786C1.30935 31.5 0.5 30.6907 0.5 29.6921V2.30786C0.5 1.30935 1.30935 0.5 2.30786 0.5Z" fill="white" stroke="white"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="other-page">
+      <div class="container">
+        <div class="column-category">
+            <div class="block-cat if-one">
+                <h3 class="title-gray">Категорії</h3>
+                <ul>
+                    <li><a href="">Команда</a></li>
+                    <li><a href="">Експерти</a></li>
+                    <li><a href="">Правління</a></li>
+                    <li><a href="">Наглядова рада</a></li>
+                    <li><a href="">Стратегії</a></li>
+                    <li><a href="">Стажування</a></li>
+                    <li><a href="">Підтримка</a></li>
+                    <li><a href="">Ми у ЗМІ</a></li>
+                    <li><a href="">Контакти</a></li>
+                    <li><a href="">Партнери</a></li>
+                </ul>
+            </div>
+            <div class="logo-pages">
+                <img src="img/logo-2.svg" alt="logo">
+            </div>
+        </div>
+        <div class="column-main-content block-style">
+            <div class="about-page wp-styler">
+                <h2>Про DixiGroup</h2>
+                <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</strong></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="wp-block-image">
+                    <img src="img/12.png" alt="img">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+                <p><em>Lorem ipsum dolor sit amet, </em>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+                <ol>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                </ol>
+                <p>Lorem ipsum dolor sit amet <a href="">Lorem ipsum</a> dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+                <div class="share-block">
+                    <p>Поділитися:</p>
+                    <a href="">
+                        <svg width="22" height="22" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M29.6921 0H2.30786C1.0332 0 0 1.0332 0 2.30786V29.6921C0 30.9668 1.0332 32 2.30786 32H17.0938V19.625H12.9375V14.7813H17.0938V11.2166C17.0938 7.08276 19.6174 4.83276 23.3049 4.83276C25.071 4.83276 26.5889 4.96436 27.0313 5.02319V9.34375H24.4885C22.4822 9.34375 22.0938 10.2971 22.0938 11.6963V14.7813H26.8906L26.2656 19.625H22.0938V32H29.6921C30.9668 32 32 30.9668 32 29.6921V2.30786C32 1.0332 30.9668 0 29.6921 0V0Z" fill="#03948B"/>
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg width="22" height="22" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.4675 12.812C12.8129 12.5151 10.4742 11.1749 8.87098 9.20781L8.41433 8.64748L8.05111 9.27244C7.69289 9.88878 7.48608 10.6055 7.48608 11.3696C7.48608 12.1215 7.68491 12.8276 8.03291 13.4374L7.4833 13.1318L7.45728 13.9514C7.45654 13.9749 7.45654 13.9967 7.45654 14.0119V14.0142C7.45654 15.2277 7.97518 16.3208 8.80305 17.0832L8.51075 17.0271L8.76801 17.8296C9.16607 19.0714 10.1298 20.0602 11.3566 20.4923C10.39 21.0078 9.28641 21.2998 8.11377 21.2998C7.83658 21.2998 7.56369 21.284 7.29643 21.2525L6.96797 22.17C8.67067 23.2614 10.6937 23.8987 12.8669 23.8987C19.9556 23.8984 23.8159 18.0175 23.8159 12.9497C23.8159 12.8727 23.8152 12.7959 23.8136 12.7191C24.4887 12.1952 25.0784 11.5622 25.5531 10.8508L26.5108 9.41548L24.9341 10.1164C24.8483 10.1545 24.7616 10.1909 24.674 10.2255C24.8604 9.9311 25.0109 9.6116 25.1195 9.27293L25.5213 8.01872L24.3884 8.69024C23.7995 9.03925 23.1549 9.30324 22.4706 9.46555C21.726 8.77483 20.7266 8.35132 19.6306 8.35132C17.3265 8.35132 15.4578 10.2199 15.4578 12.5234C15.4578 12.6203 15.461 12.7165 15.4675 12.812ZM2.30786 0.5H29.6921C30.6907 0.5 31.5 1.30935 31.5 2.30786V29.6921C31.5 30.6907 30.6907 31.5 29.6921 31.5H2.30786C1.30935 31.5 0.5 30.6907 0.5 29.6921V2.30786C0.5 1.30935 1.30935 0.5 2.30786 0.5Z" fill="#03948B" stroke="#03948B"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="column-sidebars">
+            <div class="blocks-coments block-style style-padding">
+            <h3 class="title-green">Коментарі</h3>
+                <div class="coments coments-sidebar slider-btn mob-sl">
+                <div class="coment">
+                    <div class="coment-top">
+                    <div class="img-coment">
+                        <img src="img/man.jpg" alt="img">
+                    </div>
+                    <div class="coment-right">
+                        <h4>Богдан Серебренніков</h4>
+                        <p class="status">Менеджер з організації консультативних послуг в сфері аналітичної діяльності</p>
+                        <p class="date">20 Jun 2020</p>
+                    </div>
+                    </div>
+                    <div class="coment-bot">
+                    <h3>"Зелений" шанс для України</h3>
+                    <p>В цілому проект Концепції "зеленого" енергетичного переходу України до 2050 року, запропонованої Мінекоенерго, виглядає достатньо амбітним, збалансованим і відповідає сучасним європейським та світовим трендам трансформації енергетики та економіки.</p>
+                    </div>
+                </div>
+                <div class="coment">
+                    <div class="coment-top">
+                    <div class="img-coment">
+                        <img src="img/man.jpg" alt="img">
+                    </div>
+                    <div class="coment-right">
+                        <h4>Богдан Серебренніков</h4>
+                        <p class="status">Менеджер з організації консультативних послуг в сфері аналітичної діяльності</p>
+                        <p class="date">20 Jun 2020</p>
+                    </div>
+                    </div>
+                    <div class="coment-bot">
+                    <h3>"Зелений" шанс для України</h3>
+                    <p>В цілому проект Концепції "зеленого" енергетичного переходу України до 2050 року,  збалансованим і відповідає сучасним європейським та світовим трендам.</p>
+                    </div>
+                </div>
+                <div class="coment">
+                    <div class="coment-top">
+                    <div class="img-coment">
+                        <img src="img/man.jpg" alt="img">
+                    </div>
+                    <div class="coment-right">
+                        <h4>Богдан Серебренніков</h4>
+                        <p class="status">Менеджер з організації консультативних послуг в сфері аналітичної діяльності</p>
+                        <p class="date">20 Jun 2020</p>
+                    </div>
+                    </div>
+                    <div class="coment-bot">
+                    <h3>"Зелений" шанс для України</h3>
+                    <p>В цілому проект Концепції "зеленого" енергетичного переходу України до 2050 року, запропонованої Мінекоенерго, виглядає достатньо амбітним, збалансованим і відповідає сучасним європейським та світовим трендам трансформації енергетики та економіки.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="blocks-news block-style style-padding">
+                <h3 class="title-green">Новини</h3>
+                <ul>
+                    <li class="small-news"><a href="">DiXi Group Alert: протокол щодо умов транзиту російського газу зафіксував компроміси, однак викликав додаткові питання</a></li>
+                    <li class="small-news"><a href="">DiXi Group Alert: окремі новації «бурштинового» закону можуть нести ризики для прозорості надрокористування</a></li>
+                    <li class="small-news"><a href="">«У нас є багато тем для співпраці», – Олена Павленко з Форуму Східного Партнерства</a></li>
+                </ul>
+            </div>
+            <div class="blocks-analitick block-style style-padding">
+                <h3 class="title-green">Аналітика</h3>
+                <ul class="analitick">
+                <li><a href="">Говорити з українцями про дві платіжки за газ треба було ще з вересня - експерт</a></li>
+                <li><a href="">Експерт назвала сприятливі передумови для приватизації "Нафтогазу"</a></li>
+                <li><a href="">Дві платіжки на газ та навіщо платити за доставку газу</a></li>
+                <li><a href="">Говорити з українцями про дві платіжки за газ треба було ще з вересня - експерт</a></li>
+                <li><a href="">DiXi Group Alert: окремі новації «бурштинового» закону можуть нести ризики для прозорості надрокористування</a></li>
+                </ul>
+                <a href="" class="white-btn">замовити аналітику</a>
+            </div>
+            <div class="blocks-media block-style style-padding">
+                <h3 class="title-green">Ми у ЗМІ</h3>
+                <ul class="media-block">
+                <li><a href="">Чому зросли ціни на газ і чому вони знову можуть підвищитися з 1 січня — коментує експерт</a><img src="img/icon/youtube.svg" alt="video"></li>
+                <li><a href="">Говорити з українцями про дві платіжки за газ треба було ще з вересня - експерт</a></li>
+                <li><a href="">Ukraine-Russia Gas Transit Negotiations</a><img src="img/icon/youtube.svg" alt="video"></li>
+                </ul>
+            </div>
+            <div class="blocks-weeks block-style style-padding">
+                <a href="/"><img src="img/week.png" alt="img"></a>
+            </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="bottom-slider-section block-style">
+      <h3 class="title-gray">Наші платформи</h3>
+      <div class="bottom-sliders slider-btn">
+        <div class="slider-item">
+          <div class="column">
+            <div class="item-img">
+              <img src="/img/slitem1.png" alt="img">
+            </div>
+            <div class="text-item">
+              <p>Інформаційно-аналітичний ресурс є унікальною платформою для інформування та обговорення основних подій української та міжнародної енергетики.</p>
+              <a href="/">ua-energy.org</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="item-img">
+              <img src="/img/slitem2.png" alt="img">
+            </div>
+            <div class="text-item">
+              <p>Сайт Київської школи енергетичної політики (КШЕП) – незалежного центру підвищення професійності у сфері енергетики</p>
+              <a href="/">ua-energy.org</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="item-img">
+              <img src="/img/slitem3.png" alt="img">
+            </div>
+            <div class="text-item">
+              <p>Інформаційно-аналітичний ресурс є унікальною платформою для інформування та обговорення основних подій української та міжнародної енергетики.</p>
+              <a href="/">ua-energy.org</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="item-img">
+              <img src="/img/slitem4.png" alt="img">
+            </div>
+            <div class="text-item">
+              <p>Інформаційно-аналітичний ресурс є унікальною платформою для інформування та обговорення основних подій української та міжнародної енергетики.</p>
+              <a href="/">ua-energy.org</a>
+            </div>
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="column">
+            <div class="item-img">
+              <img src="/img/slitem1.png" alt="img">
+            </div>
+            <div class="text-item">
+              <p>Інформаційно-аналітичний ресурс є унікальною платформою для інформування та обговорення основних подій української та міжнародної енергетики.</p>
+              <a href="/">ua-energy.org</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="item-img">
+              <img src="/img/slitem2.png" alt="img">
+            </div>
+            <div class="text-item">
+              <p>Інформаційно-аналітичний ресурс є унікальною платформою для інформування та обговорення основних подій української та міжнародної енергетики.</p>
+              <a href="/">ua-energy.org</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="item-img">
+              <img src="/img/slitem3.png" alt="img">
+            </div>
+            <div class="text-item">
+              <p>Інформаційно-аналітичний ресурс є унікальною платформою для інформування та обговорення основних подій української та міжнародної енергетики.</p>
+              <a href="/">ua-energy.org</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="item-img">
+              <img src="/img/slitem4.png" alt="img">
+            </div>
+            <div class="text-item">
+              <p>Інформаційно-аналітичний ресурс є унікальною платформою для інформування та обговорення основних подій української та міжнародної енергетики.</p>
+              <a href="/">ua-energy.org</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom-slider-section-mob">
+      <h3 class="title-gray">Наші платформи</h3>
+      <div class="bottom-sliders-mob slider-btn mob-sl">
+        <div class="column">
+          <div class="item-img">
+            <img src="/img/slitem1.png" alt="img">
+          </div>
+          <div class="text-item">
+            <p>Інформаційно-аналітичний ресурс є унікальною платформою для інформування та обговорення основних подій української та міжнародної енергетики.</p>
+            <a href="/">ua-energy.org</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="item-img">
+            <img src="/img/slitem2.png" alt="img">
+          </div>
+          <div class="text-item">
+            <p>Сайт Київської школи енергетичної політики (КШЕП) – незалежного центру підвищення професійності у сфері енергетики</p>
+            <a href="/">ua-energy.org</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="item-img">
+            <img src="/img/slitem3.png" alt="img">
+          </div>
+          <div class="text-item">
+            <p>Інформаційно-аналітичний ресурс є унікальною платформою для інформування та обговорення основних подій української та міжнародної енергетики.</p>
+            <a href="/">ua-energy.org</a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="item-img">
+            <img src="/img/slitem4.png" alt="img">
+          </div>
+          <div class="text-item">
+            <p>Інформаційно-аналітичний ресурс є унікальною платформою для інформування та обговорення основних подій української та міжнародної енергетики.</p>
+            <a href="/">ua-energy.org</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="foot-left">
+          <p class="foot-title">Меню</p>
+          <ul class="menu-foot">
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Новини</a></li>
+            <li><a href="#">Аналітичні продукти</a></li>
+            <li><a href="#">Послуги</a></li>
+            <li><a href="#">Конкурси</a></li>
+          </ul>
+        </div>
+        <div class="foot-middle">
+          <p class="foot-title">Електрона пошта</p>
+          <form action="" class="subscribe">
+            <input type="email" placeholder="email">
+            <input type="submit" class="green-btn" value="підписатися">
+          </form>
+          <p class="foot-title">Контакти</p>
+          <ul class="contact">
+            <li class="cont-item">
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23.9137 17.066C22.3219 17.066 20.7589 16.817 19.2778 16.3276C18.552 16.08 17.6598 16.3071 17.2169 16.762L14.2935 18.9689C10.9031 17.1591 8.81472 15.0714 7.02966 11.7065L9.17161 8.85927C9.7281 8.30352 9.92771 7.4917 9.68856 6.72999C9.197 5.24109 8.94729 3.67885 8.94729 2.08636C8.94736 0.93593 8.01143 0 6.86107 0H2.08629C0.93593 0 0 0.93593 0 2.08629C0 15.2725 10.7275 25.9999 23.9137 25.9999C25.0641 25.9999 26 25.064 26 23.9136V19.1522C25.9999 18.0019 25.064 17.066 23.9137 17.066Z" fill="#CAC9C9"/>
+              </svg>
+              <a href="tel:+38 044 253 66 94">+38 044 253 66 94</a>
+            </li>
+            <li class="cont-item">
+              <svg width="16" height="22" viewBox="0 0 16 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.99882 0C3.60548 0 0.03125 3.57423 0.03125 7.96752C0.03125 13.4197 7.16144 21.4239 7.46502 21.762C7.75016 22.0796 8.24799 22.079 8.53262 21.762C8.83619 21.4239 15.9664 13.4197 15.9664 7.96752C15.9663 3.57423 12.3921 0 7.99882 0ZM7.99882 11.9762C5.78842 11.9762 3.99018 10.1779 3.99018 7.96752C3.99018 5.75712 5.78846 3.95888 7.99882 3.95888C10.2092 3.95888 12.0074 5.75717 12.0074 7.96757C12.0074 10.178 10.2092 11.9762 7.99882 11.9762Z" fill="#CAC9C9"/>
+              </svg>
+              <a href="">вул. Інститутська 18 а, офіс 3</a>
+            </li>
+            <li class="cont-item">
+              <svg width="27" height="21" viewBox="0 0 27 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.37214 0.5H24.6262C24.642 0.5 24.6578 0.500217 24.6735 0.500649L15.8089 9.3648C15.8069 9.36674 15.8047 9.36884 15.8025 9.37111L13.4534 11.6287L2.32538 0.500634C2.34092 0.500212 2.35651 0.5 2.37214 0.5Z" fill="#CAC9C9" stroke="#CAC9C9"/>
+                <path d="M26.4999 18.2402L18.5431 10.2833L26.4999 2.32686C26.5003 2.3422 26.5006 2.35758 26.5006 2.37299V18.1934C26.5006 18.2091 26.5003 18.2246 26.4999 18.2402Z" fill="#CAC9C9" stroke="#CAC9C9"/>
+                <path d="M0.5 2.37312C0.5 2.35749 0.500212 2.3419 0.500634 2.32635L8.45761 10.2833L0.500622 18.2399C0.500208 18.2245 0.5 18.209 0.5 18.1935V2.37312Z" fill="#CAC9C9" stroke="#CAC9C9"/>
+                <path d="M13.4469 14.7387C13.7748 14.7387 14.1043 14.6137 14.3557 14.3644L16.7095 12.1024L24.6734 20.0662C24.6578 20.0666 24.6422 20.0668 24.6266 20.0668H2.37251C2.35671 20.0668 2.34094 20.0666 2.32522 20.0662L10.2827 12.1092L12.534 14.3604C12.534 14.3604 12.534 14.3605 12.5341 14.3605C12.786 14.6125 13.1173 14.7387 13.4469 14.7387Z" fill="#CAC9C9" stroke="#CAC9C9"/>
+              </svg>
+              <a href="mailto:author@dixigroup.org">author@dixigroup.org</a>
+            </li>
+            <li class="social">
+              <a href="/" target="_blank">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M29.6921 0H2.30786C1.0332 0 0 1.0332 0 2.30786V29.6921C0 30.9668 1.0332 32 2.30786 32H17.0938V19.625H12.9375V14.7813H17.0938V11.2166C17.0938 7.08276 19.6174 4.83276 23.3049 4.83276C25.071 4.83276 26.5889 4.96436 27.0313 5.02319V9.34375H24.4885C22.4822 9.34375 22.0938 10.2971 22.0938 11.6963V14.7813H26.8906L26.2656 19.625H22.0938V32H29.6921C30.9668 32 32 30.9668 32 29.6921V2.30786C32 1.0332 30.9668 0 29.6921 0V0Z" fill="#CAC9C9"/>
+                </svg>  
+              </a>
+              <a href="/" target="_blank">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.4675 12.812C12.8129 12.5151 10.4742 11.1749 8.87098 9.20781L8.41433 8.64748L8.05111 9.27244C7.69289 9.88878 7.48608 10.6055 7.48608 11.3696C7.48608 12.1215 7.68491 12.8276 8.03291 13.4374L7.4833 13.1318L7.45728 13.9514C7.45654 13.9749 7.45654 13.9967 7.45654 14.0119V14.0142C7.45654 15.2277 7.97518 16.3208 8.80305 17.0832L8.51075 17.0271L8.76801 17.8296C9.16607 19.0714 10.1298 20.0602 11.3566 20.4923C10.39 21.0078 9.28641 21.2998 8.11377 21.2998C7.83658 21.2998 7.56369 21.284 7.29643 21.2525L6.96797 22.17C8.67067 23.2614 10.6937 23.8987 12.8669 23.8987C19.9556 23.8984 23.8159 18.0175 23.8159 12.9497C23.8159 12.8727 23.8152 12.7959 23.8136 12.7191C24.4887 12.1952 25.0784 11.5622 25.5531 10.8508L26.5108 9.41548L24.9341 10.1164C24.8483 10.1545 24.7616 10.1909 24.674 10.2255C24.8604 9.9311 25.0109 9.6116 25.1195 9.27293L25.5213 8.01872L24.3884 8.69024C23.7995 9.03925 23.1549 9.30324 22.4706 9.46555C21.726 8.77483 20.7266 8.35132 19.6306 8.35132C17.3265 8.35132 15.4578 10.2199 15.4578 12.5234C15.4578 12.6203 15.461 12.7165 15.4675 12.812ZM2.30786 0.5H29.6921C30.6907 0.5 31.5 1.30935 31.5 2.30786V29.6921C31.5 30.6907 30.6907 31.5 29.6921 31.5H2.30786C1.30935 31.5 0.5 30.6907 0.5 29.6921V2.30786C0.5 1.30935 1.30935 0.5 2.30786 0.5Z" fill="#CAC9C9" stroke="#CAC9C9"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="foot-right">
+          <div class="text-foot">
+            <p>Сайт створено в межах Ініціативи з розвитку аналітичних центрів в Україні, яку виконує Міжнародний фонд "Відродження" у партнерстві з Ініціативою відкритого суспільства для Європи (OSIFE) за фінансової підтримки Посольства Швеції в Україні. Повну відповідальність за зміст сайту несе DiXi Group.</p>
+            <span class="mob-foot-more">Більше</span>
+          </div>
+          <ul class="clients">
+            <li><img src="img/foot-1.png" alt="img"></li>
+            <li><img src="img/foot-2.png" alt="img"></li>
+            <li><img src="img/foot-3.png" alt="img"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <p>© DiXi Group, [2020]</p>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) {
+        var pageHeader = document.querySelector(".page-header"),
+            mainHeader = document.querySelector(".main-header");
+
+        // pageHeader.remove();
+        // mainHeader.remove();
+      });
+    </script>
+
+</body>
+</html>
